@@ -1,12 +1,15 @@
 class Subtract
 {
-    void subtract(int a, int b) {
+    void subtract(int a, int b)
+    {
         System.out.println("Subtraction of two integers = " + (a - b));
     }
-    void subtract(int a, int b, int c) {
+    void subtract(int a, int b, int c)
+    {
         System.out.println("Subtraction of three integers = " + (a - b - c));
     }
-    void subtract(double a, double b) {
+    void subtract(double a, double b)
+    {
         System.out.println("Subtraction of two doubles = " + (a - b));
     }
 }
