@@ -6,7 +6,7 @@ class evenodd
         Scanner sc=new Scanner(System.in);
         int even = 0, odd = 0,i;
         for(i=1;i<=10;i++) {
-            System.out.print("Enter number: ");
+            System.out.print("Enter number "+i+" : ");
             int n = sc.nextInt();
         if (n % 2 == 0)
                 even++;
